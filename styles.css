@@ -1,0 +1,83 @@
+html, body {
+    padding-left:10px;
+    background:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    color:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    height: 100%; /* Make both html and body 100% of viewport height */
+}
+nav.nav-bar {
+    font-family:faculty glyphic;
+
+    background-color:rgba(255, 255, 255, 0);
+    
+    
+    
+}
+
+
+.nav-bar ul{
+    list-style:none;
+    
+    text-align: center;
+    
+}
+li{
+
+    display:inline-block;
+    margin:10px 20px 20px 20px;
+    transition:0.1s;
+    
+}
+li:hover{
+    color:rgb(46, 46, 46);
+    text-decoration: underline;
+}
+span{
+    font-family:Monaco,Consolas,Lucida Console,monospace;
+    font-size:3em;
+    margin-top:100px;
+    
+}
+p{
+    font-size:1.3em;
+}
+
+
+.cursor {
+    display: inline-block;
+    width: 0.6em;          /* Width of the block cursor */
+    height: 1.1em;           /* Height matching the font-size */
+    background-color: black;
+    margin-left: 2px;
+    animation: blink 1s steps(1) infinite;
+    vertical-align: bottom;
+    opacity:0.85;
+}
+
+/* Animation for blinking */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+div.info{
+    padding-bottom:500px;
+    width:700px;
+    background:rgb(66, 66, 66);
+    color:white;
+    border-radius:10px;
+    
+    
+}
+.highlight{
+
+    text-decoration:underline;
+    font-size:0.9em;
+    background:yellow;
+
+}
